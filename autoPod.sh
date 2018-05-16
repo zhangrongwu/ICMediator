@@ -3,9 +3,9 @@
 #该脚本仅适用于cocoapods生成的framework静态库
 frameworkName='ICMediator'
 #修改
-oldversion='0.1.0'
+oldversion='0.1.0.5'
 #修改
-version='0.1.0.5'
+version='0.1.0.6'
 message='${version}版本ICMediator发布第一个pod'
 
 
