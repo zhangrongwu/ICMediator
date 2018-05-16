@@ -1,7 +1,7 @@
 
 #!/bin/bash
 #该脚本仅适用于cocoapods生成的framework静态库
-frameworkName='iComeSDK'
+frameworkName='ICMediator'
 #修改
 oldversion='0.1.0'
 #修改
