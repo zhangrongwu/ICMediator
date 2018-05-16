@@ -2,7 +2,7 @@
   "name": "ICMediator",
   "version": "0.1.0",
   "summary": "A short description of ICMediator.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "模块化设计中转调度平台",
   "homepage": "https://github.com/zhangrongwu/ICMediator",
   "license": {
     "type": "MIT",
@@ -18,5 +18,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ICMediator/Classes/**/*"
+  "source_files": "ICMediator/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h"
 }

@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00D9F99669D306E89F2E0503D3B8212D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		00363C7839A2C149B943CC2C8D3B1863 /* ICRouterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D6B5968F10FD0831F4B9361E8BE303A4 /* ICRouterViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C88531B6A7DF6F9CBA2CDF06AAFA13D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1529DFAD379A66B4DA9A550300A4FC69 /* ICRouterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B51D90436D56CAAADB6227D11CD03E /* ICRouterViewController.m */; };
 		2D9EBFFA92A07DCC6AD88A0F397D6E81 /* Pods-ICMediator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB09E1E949A816E2B63141F38E4BA57 /* Pods-ICMediator_Tests-dummy.m */; };
+		62D2549F4320841E682A7A6062AB15BF /* ICMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 975A151D3E119B84F4D9B93E336D2E55 /* ICMediator-dummy.m */; };
+		631C95C3CCA21E410FE0D017A5EC8AB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		71CCD97F49B7ED093D12BEFDE2F4A355 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		75A8FA6391C1EEC7FDA1F299D2B9B6C2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BE282FBF6699619D6E224226EB8BFEC9 /* ReplaceMe.m */; };
 		940B8693F94F32F6AC0F0F9257BB23C8 /* Pods-ICMediator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5365BF7F98CA12AE9E4664D928149E6E /* Pods-ICMediator_Example-dummy.m */; };
-		B4D4942D80BC1FC997447814FC7639B7 /* ICMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6EEBC096A6C6D8478C07E3EA181BA2 /* ICMediator-dummy.m */; };
-		CC81066D66E60A67704DD174F924F1E3 /* ICMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECF576C522BDD5B307FD59535EFD6DD9 /* ICMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6CDF3B55E2C0DF1E55EE0B717017D40 /* ICMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E267FC4CAB92520FFE1BF4D9C91798B /* ICMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD6AD1FE7CC9BBDCA10476B819F5CCB4 /* ICMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D01D8699BF71B172E6E65B96207B8B /* ICMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1324A61AA201E9D59A14EFB2C75768D /* Pods-ICMediator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDBA91B6204116BE042C33252536B1BE /* Pods-ICMediator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA6F5DE18726E60281E576746607397D /* Pods-ICMediator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7549F3DD4C66F7324A523B5C0FA6CB68 /* Pods-ICMediator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFC8ABDB5AD04A35AD24AAF4EFF3EABF /* ICMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 086391A426B507B2D5E572EAF0493A2E /* ICMediator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,55 +27,58 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3BB2909B7E63425881A0CD18DE9FB67F;
+			remoteGlobalIDString = 2234D4025F43B7F7492554EFC523937C;
 			remoteInfo = ICMediator;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01D01D8699BF71B172E6E65B96207B8B /* ICMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICMediator-umbrella.h"; sourceTree = "<group>"; };
+		086391A426B507B2D5E572EAF0493A2E /* ICMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ICMediator.m; path = ICMediator/Classes/ICMediator.m; sourceTree = "<group>"; };
 		166AD9D8846923DC1E2852F1F5A76240 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21BE22ADADCB0DF867E763B1E460A55F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1ABB2E4DA5D7CC805AD2F6CED1C54878 /* ICMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ICMediator.modulemap; sourceTree = "<group>"; };
+		1EDE0AF74B1AD0BB03618F8FCFED7EB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C17DD66FD1FDB19EEF251DE2B7E653B /* Pods-ICMediator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ICMediator_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		366D33A52069030911CDE9BA234F66C7 /* ICMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ICMediator.xcconfig; sourceTree = "<group>"; };
 		3DCFE0E0F1C4899A2F676FD872F0B5A5 /* Pods-ICMediator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ICMediator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3DD961323A02C34775CA1E7095C6DAEE /* Pods-ICMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		44932E928C7CDC4BC19E2FB5D0E072E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4530853D59A0BD4A0D89F2F0999C8229 /* ICMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ICMediator.xcconfig; sourceTree = "<group>"; };
 		4D23D0EF2F29549BBD303FED8C70C558 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FBC422587E98F9CD73D699CFC84B755 /* Pods-ICMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5365BF7F98CA12AE9E4664D928149E6E /* Pods-ICMediator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ICMediator_Example-dummy.m"; sourceTree = "<group>"; };
+		5BD7005C5C5A3C227703781D119C508E /* ICMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ICMediator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		65D9F89D8DA3DAA47231DBB0B6D4393C /* ICMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ICMediator.framework; path = ICMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6D4BA3FFB8C66482D7A044D42B64BB5B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		713DD3E26BB29A4B4A6B19B2A7F947F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7549F3DD4C66F7324A523B5C0FA6CB68 /* Pods-ICMediator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ICMediator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7E267FC4CAB92520FFE1BF4D9C91798B /* ICMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICMediator.h; path = ICMediator/Classes/ICMediator.h; sourceTree = "<group>"; };
 		7E390DBF69A64655DCA520174A133A12 /* Pods-ICMediator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ICMediator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7E9D01ABEC2558C79D5DD654C02B01E7 /* Pods_ICMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ICMediator_Tests.framework; path = "Pods-ICMediator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		975A151D3E119B84F4D9B93E336D2E55 /* ICMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ICMediator-dummy.m"; sourceTree = "<group>"; };
 		995F0AE53C4EFB32B7976CBD71767EB2 /* Pods-ICMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9A2B0298C01FDEA5EDA49946CBA8AD4D /* Pods-ICMediator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ICMediator_Tests.modulemap"; sourceTree = "<group>"; };
 		9B17B243D03D6E66276EA78CFEB334BF /* Pods_ICMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ICMediator_Example.framework; path = "Pods-ICMediator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F73F9A6AA3B5C138E47DEB34B91FB2B /* Pods-ICMediator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ICMediator_Example.modulemap"; sourceTree = "<group>"; };
 		ADE6E883F0B11AC724C17FC300B8B532 /* Pods-ICMediator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ICMediator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BDD42F84250233B9CA58490514CA078C /* ICMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ICMediator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BE282FBF6699619D6E224226EB8BFEC9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ICMediator/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		BF3E32925FBDC93329240E88CFA65EF0 /* Pods-ICMediator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ICMediator_Tests-resources.sh"; sourceTree = "<group>"; };
 		C28B1064879D9FCEB2DE06D3BA76FFAC /* Pods-ICMediator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ICMediator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C35F3D45FD3B2E01D4C703130D39115C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6EC1C2E31B05B402CAB0DB9EFCBE099 /* Pods-ICMediator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ICMediator_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CDBA91B6204116BE042C33252536B1BE /* Pods-ICMediator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ICMediator_Example-umbrella.h"; sourceTree = "<group>"; };
+		D6B5968F10FD0831F4B9361E8BE303A4 /* ICRouterViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICRouterViewController.h; path = ICMediator/Classes/ICRouterViewController.h; sourceTree = "<group>"; };
+		E0A8BD417380297F0145669005E51805 /* ICMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICMediator-prefix.pch"; sourceTree = "<group>"; };
 		E26B56153C6E0A5840B72098DDCAC279 /* Pods-ICMediator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ICMediator_Example-resources.sh"; sourceTree = "<group>"; };
-		E4DC9884E95B54FDDEB6A54036B2EB75 /* ICMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICMediator-prefix.pch"; sourceTree = "<group>"; };
-		EB6EEBC096A6C6D8478C07E3EA181BA2 /* ICMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ICMediator-dummy.m"; sourceTree = "<group>"; };
+		E9B51D90436D56CAAADB6227D11CD03E /* ICRouterViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ICRouterViewController.m; path = ICMediator/Classes/ICRouterViewController.m; sourceTree = "<group>"; };
 		ECB09E1E949A816E2B63141F38E4BA57 /* Pods-ICMediator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ICMediator_Tests-dummy.m"; sourceTree = "<group>"; };
-		ECF576C522BDD5B307FD59535EFD6DD9 /* ICMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICMediator-umbrella.h"; sourceTree = "<group>"; };
 		F765E1FEEEFF1528B4E6381524E4701F /* Pods-ICMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FB5906D096BCD40D6A38B859DA141A80 /* ICMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ICMediator.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E73A8BDA426B3C6952F99E8DD0F250DE /* Frameworks */ = {
+		29C0CBB9320FB4CD4374A70009C83DAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00D9F99669D306E89F2E0503D3B8212D /* Foundation.framework in Frameworks */,
+				631C95C3CCA21E410FE0D017A5EC8AB4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,26 +101,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B52DBBA340C21438515883B34B5902D /* ICMediator */ = {
+		2FE8EB9E4EC9922EEAF6EC39154B2697 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BE282FBF6699619D6E224226EB8BFEC9 /* ReplaceMe.m */,
-				42E236B8BDA0673D35A1728BAB235D57 /* Pod */,
-				279D52C2D5080707493EA992CBF27ECD /* Support Files */,
-			);
-			name = ICMediator;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		279D52C2D5080707493EA992CBF27ECD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FB5906D096BCD40D6A38B859DA141A80 /* ICMediator.modulemap */,
-				366D33A52069030911CDE9BA234F66C7 /* ICMediator.xcconfig */,
-				EB6EEBC096A6C6D8478C07E3EA181BA2 /* ICMediator-dummy.m */,
-				E4DC9884E95B54FDDEB6A54036B2EB75 /* ICMediator-prefix.pch */,
-				ECF576C522BDD5B307FD59535EFD6DD9 /* ICMediator-umbrella.h */,
-				C35F3D45FD3B2E01D4C703130D39115C /* Info.plist */,
+				1ABB2E4DA5D7CC805AD2F6CED1C54878 /* ICMediator.modulemap */,
+				4530853D59A0BD4A0D89F2F0999C8229 /* ICMediator.xcconfig */,
+				975A151D3E119B84F4D9B93E336D2E55 /* ICMediator-dummy.m */,
+				E0A8BD417380297F0145669005E51805 /* ICMediator-prefix.pch */,
+				01D01D8699BF71B172E6E65B96207B8B /* ICMediator-umbrella.h */,
+				1EDE0AF74B1AD0BB03618F8FCFED7EB6 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ICMediator";
@@ -147,33 +142,47 @@
 			path = "Target Support Files/Pods-ICMediator_Example";
 			sourceTree = "<group>";
 		};
-		42E236B8BDA0673D35A1728BAB235D57 /* Pod */ = {
+		410AB1D314CC4331728EB58D5C60579D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BDD42F84250233B9CA58490514CA078C /* ICMediator.podspec */,
-				6D4BA3FFB8C66482D7A044D42B64BB5B /* LICENSE */,
-				21BE22ADADCB0DF867E763B1E460A55F /* README.md */,
+				911904E50756804E981004A7AB957F03 /* ICMediator */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8DDB8C7D599DB4952779106AAB138ACB /* Development Pods */,
+				410AB1D314CC4331728EB58D5C60579D /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				AF861E99C532DC0500E55111840B01C5 /* Products */,
 				3385D57B4D43824A9D9454DA2EA9E6D1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8DDB8C7D599DB4952779106AAB138ACB /* Development Pods */ = {
+		83EC54DA485BFC042C4D5325D64C5E50 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1B52DBBA340C21438515883B34B5902D /* ICMediator */,
+				5BD7005C5C5A3C227703781D119C508E /* ICMediator.podspec */,
+				44932E928C7CDC4BC19E2FB5D0E072E3 /* LICENSE */,
+				713DD3E26BB29A4B4A6B19B2A7F947F7 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		911904E50756804E981004A7AB957F03 /* ICMediator */ = {
+			isa = PBXGroup;
+			children = (
+				7E267FC4CAB92520FFE1BF4D9C91798B /* ICMediator.h */,
+				086391A426B507B2D5E572EAF0493A2E /* ICMediator.m */,
+				D6B5968F10FD0831F4B9361E8BE303A4 /* ICRouterViewController.h */,
+				E9B51D90436D56CAAADB6227D11CD03E /* ICRouterViewController.m */,
+				83EC54DA485BFC042C4D5325D64C5E50 /* Pod */,
+				2FE8EB9E4EC9922EEAF6EC39154B2697 /* Support Files */,
+			);
+			name = ICMediator;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		ACB7DD7D36D8F07C620E789DF8460138 /* Pods-ICMediator_Tests */ = {
@@ -223,19 +232,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1EE14AF6D6EE42F785397FB69D6C2991 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC81066D66E60A67704DD174F924F1E3 /* ICMediator-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4C1EA3686BA7B6DCE4E9868E2066EE2C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FA6F5DE18726E60281E576746607397D /* Pods-ICMediator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BABB28D59570CDD21DEDF48297CE17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6AD1FE7CC9BBDCA10476B819F5CCB4 /* ICMediator-umbrella.h in Headers */,
+				C6CDF3B55E2C0DF1E55EE0B717017D40 /* ICMediator.h in Headers */,
+				00363C7839A2C149B943CC2C8D3B1863 /* ICRouterViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,13 +296,13 @@
 			productReference = 9B17B243D03D6E66276EA78CFEB334BF /* Pods_ICMediator_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3BB2909B7E63425881A0CD18DE9FB67F /* ICMediator */ = {
+		2234D4025F43B7F7492554EFC523937C /* ICMediator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA098FBD8ED489B80A3706BA61D73A1B /* Build configuration list for PBXNativeTarget "ICMediator" */;
+			buildConfigurationList = 34F6FBFB6F1031ADD2986FEAC3B97D44 /* Build configuration list for PBXNativeTarget "ICMediator" */;
 			buildPhases = (
-				288FE322EBDE563CFBC4DF998AFA81F9 /* Sources */,
-				E73A8BDA426B3C6952F99E8DD0F250DE /* Frameworks */,
-				1EE14AF6D6EE42F785397FB69D6C2991 /* Headers */,
+				6BA0089A03EE883DEF6818A7E156276E /* Sources */,
+				29C0CBB9320FB4CD4374A70009C83DAE /* Frameworks */,
+				73BABB28D59570CDD21DEDF48297CE17 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -323,7 +334,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3BB2909B7E63425881A0CD18DE9FB67F /* ICMediator */,
+				2234D4025F43B7F7492554EFC523937C /* ICMediator */,
 				1B7792AA5EC919EF4B87CE6491B95677 /* Pods-ICMediator_Example */,
 				00F9CF4DB8D31ADC0534CF4A9BC7803A /* Pods-ICMediator_Tests */,
 			);
@@ -331,20 +342,21 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		288FE322EBDE563CFBC4DF998AFA81F9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B4D4942D80BC1FC997447814FC7639B7 /* ICMediator-dummy.m in Sources */,
-				75A8FA6391C1EEC7FDA1F299D2B9B6C2 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3B7AEF2DB5414A9B2B05FC3E1C443D01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				940B8693F94F32F6AC0F0F9257BB23C8 /* Pods-ICMediator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA0089A03EE883DEF6818A7E156276E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D2549F4320841E682A7A6062AB15BF /* ICMediator-dummy.m in Sources */,
+				FFC8ABDB5AD04A35AD24AAF4EFF3EABF /* ICMediator.m in Sources */,
+				1529DFAD379A66B4DA9A550300A4FC69 /* ICRouterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +374,7 @@
 		17375015BDACC881441608EF75DE01B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ICMediator;
-			target = 3BB2909B7E63425881A0CD18DE9FB67F /* ICMediator */;
+			target = 2234D4025F43B7F7492554EFC523937C /* ICMediator */;
 			targetProxy = 3C0D5F26EE5A71D9B5DF9162B7E1262F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -394,35 +406,6 @@
 				PRODUCT_NAME = Pods_ICMediator_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2B680A0994AB3F99091F0DA22D5320AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 366D33A52069030911CDE9BA234F66C7 /* ICMediator.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ICMediator/ICMediator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ICMediator/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ICMediator/ICMediator.modulemap";
-				PRODUCT_NAME = ICMediator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -558,6 +541,35 @@
 			};
 			name = Release;
 		};
+		6E0BFBBD5AFD361C5B152DC7F6F73007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4530853D59A0BD4A0D89F2F0999C8229 /* ICMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ICMediator/ICMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ICMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ICMediator/ICMediator.modulemap";
+				PRODUCT_NAME = ICMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -616,9 +628,9 @@
 			};
 			name = Release;
 		};
-		8BB998C75DFECAFC3B3EBF6CC5D3A1C6 /* Release */ = {
+		87A69635FE4B7F3D2478A103D042F5EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 366D33A52069030911CDE9BA234F66C7 /* ICMediator.xcconfig */;
+			baseConfigurationReference = 4530853D59A0BD4A0D89F2F0999C8229 /* ICMediator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -690,6 +702,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		34F6FBFB6F1031ADD2986FEAC3B97D44 /* Build configuration list for PBXNativeTarget "ICMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0BFBBD5AFD361C5B152DC7F6F73007 /* Debug */,
+				87A69635FE4B7F3D2478A103D042F5EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A2C001FF0DE19C9B44D5DE7101E6F46C /* Build configuration list for PBXNativeTarget "Pods-ICMediator_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -704,15 +725,6 @@
 			buildConfigurations = (
 				09AE326BC406932293B385FFF02A9CE0 /* Debug */,
 				536B3D393C38EB8E595DF2CF6A0CA638 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CA098FBD8ED489B80A3706BA61D73A1B /* Build configuration list for PBXNativeTarget "ICMediator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2B680A0994AB3F99091F0DA22D5320AB /* Debug */,
-				8BB998C75DFECAFC3B3EBF6CC5D3A1C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

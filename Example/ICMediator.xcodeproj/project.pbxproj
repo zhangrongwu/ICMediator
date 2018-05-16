@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4252DE5B20ABD5D2006F1081 /* ICMediator+ChatModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4252DE5A20ABD5D2006F1081 /* ICMediator+ChatModule.m */; };
+		4252DE5E20ABD66F006F1081 /* ICChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4252DE5D20ABD66F006F1081 /* ICChatViewController.m */; };
+		4252DE6120ABDA1C006F1081 /* Target_Chat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4252DE6020ABDA1C006F1081 /* Target_Chat.m */; };
+		42F29C0B20ABD4A9007DF11C /* ICViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F29C0A20ABD4A9007DF11C /* ICViewControllerB.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,10 +41,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07C6CD2F9F23CC9F106B8A93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		07C6CD2F9F23CC9F106B8A93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		11F7B24E29D090D87627764A /* Pods-ICMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICMediator_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ICMediator_Example/Pods-ICMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1A93E2C6FBEE349902C354F0 /* Pods-ICMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICMediator_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ICMediator_Tests/Pods-ICMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		321F382054F65AF46F58FE4C /* Pods-ICMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICMediator_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ICMediator_Tests/Pods-ICMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4252DE5920ABD5D2006F1081 /* ICMediator+ChatModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ICMediator+ChatModule.h"; sourceTree = "<group>"; };
+		4252DE5A20ABD5D2006F1081 /* ICMediator+ChatModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ICMediator+ChatModule.m"; sourceTree = "<group>"; };
+		4252DE5C20ABD66F006F1081 /* ICChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICChatViewController.h; sourceTree = "<group>"; };
+		4252DE5D20ABD66F006F1081 /* ICChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICChatViewController.m; sourceTree = "<group>"; };
+		4252DE5F20ABDA1C006F1081 /* Target_Chat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Chat.h; sourceTree = "<group>"; };
+		4252DE6020ABDA1C006F1081 /* Target_Chat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Chat.m; sourceTree = "<group>"; };
+		42F29C0920ABD4A9007DF11C /* ICViewControllerB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICViewControllerB.h; sourceTree = "<group>"; };
+		42F29C0A20ABD4A9007DF11C /* ICViewControllerB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICViewControllerB.m; sourceTree = "<group>"; };
 		4F8FA1C2171FB40F0EF61229 /* Pods_ICMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICMediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ICMediator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICMediator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,9 +74,9 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		83D966A1583C751D55086D11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		83D966A1583C751D55086D11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		95210B3168207AF32D6F0413 /* ICMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ICMediator.podspec; path = ../ICMediator.podspec; sourceTree = "<group>"; };
+		95210B3168207AF32D6F0413 /* ICMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ICMediator.podspec; path = ../ICMediator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CA5A8BE36541E35D9ECC653B /* Pods-ICMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICMediator_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ICMediator_Example/Pods-ICMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F2D32CF5729B55658733AF0A /* Pods_ICMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -95,6 +107,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42F29C0C20ABD4C1007DF11C /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				4252DE5F20ABDA1C006F1081 /* Target_Chat.h */,
+				4252DE6020ABDA1C006F1081 /* Target_Chat.m */,
+			);
+			name = Action;
+			sourceTree = "<group>";
+		};
+		42F29C0D20ABD4CB007DF11C /* Categor */ = {
+			isa = PBXGroup;
+			children = (
+				4252DE5920ABD5D2006F1081 /* ICMediator+ChatModule.h */,
+				4252DE5A20ABD5D2006F1081 /* ICMediator+ChatModule.m */,
+			);
+			name = Categor;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,11 +162,17 @@
 		6003F593195388D20070C39A /* Example for ICMediator */ = {
 			isa = PBXGroup;
 			children = (
+				42F29C0D20ABD4CB007DF11C /* Categor */,
 				6003F59C195388D20070C39A /* ICAppDelegate.h */,
 				6003F59D195388D20070C39A /* ICAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ICViewController.h */,
 				6003F5A6195388D20070C39A /* ICViewController.m */,
+				42F29C0920ABD4A9007DF11C /* ICViewControllerB.h */,
+				42F29C0A20ABD4A9007DF11C /* ICViewControllerB.m */,
+				4252DE5C20ABD66F006F1081 /* ICChatViewController.h */,
+				4252DE5D20ABD66F006F1081 /* ICChatViewController.m */,
+				42F29C0C20ABD4C1007DF11C /* Action */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -405,7 +441,11 @@
 			files = (
 				6003F59E195388D20070C39A /* ICAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ICViewController.m in Sources */,
+				4252DE5B20ABD5D2006F1081 /* ICMediator+ChatModule.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				4252DE5E20ABD66F006F1081 /* ICChatViewController.m in Sources */,
+				42F29C0B20ABD4A9007DF11C /* ICViewControllerB.m in Sources */,
+				4252DE6120ABDA1C006F1081 /* Target_Chat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
