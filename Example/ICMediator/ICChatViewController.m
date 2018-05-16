@@ -7,6 +7,7 @@
 //
 
 #import "ICChatViewController.h"
+#import "ICMediator.h"
 
 @interface ICChatViewController ()
 
@@ -23,6 +24,13 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    // TargetName: 每个模块的名称
+    // action: 模块对应的页面名称
+    [[ICMediator shareInstance] toHandlerTargetName:@"Chat" action:@"nativeFetchChatViewController" params:@{@"id":@"回调的参数"}];
 }
 
 /*
