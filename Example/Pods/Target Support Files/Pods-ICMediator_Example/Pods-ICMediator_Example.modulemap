@@ -1,0 +1,6 @@
+framework module Pods_ICMediator_Example {
+  umbrella header "Pods-ICMediator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

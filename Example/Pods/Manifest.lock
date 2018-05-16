@@ -1,0 +1,16 @@
+PODS:
+  - ICMediator (0.1.0)
+
+DEPENDENCIES:
+  - ICMediator (from `../`)
+
+EXTERNAL SOURCES:
+  ICMediator:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ICMediator: 0f97f21aa9a0190e84ea7b8de26760ad52bf9293
+
+PODFILE CHECKSUM: 3d8b5ac6b1efb57612dcb024dbcc3b52d5380c0c
+
+COCOAPODS: 1.4.0

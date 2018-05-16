@@ -1,0 +1,6 @@
+framework module ICMediator {
+  umbrella header "ICMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}
