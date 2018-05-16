@@ -11,7 +11,9 @@
 #endif
 
 #import "ICMediator.h"
+#import "ICMediator.m"
 #import "ICRouterViewController.h"
+#import "ICRouterViewController.m"
 
 FOUNDATION_EXPORT double ICMediatorVersionNumber;
 FOUNDATION_EXPORT const unsigned char ICMediatorVersionString[];

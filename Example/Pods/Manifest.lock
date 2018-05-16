@@ -1,5 +1,5 @@
 PODS:
-  - ICMediator (0.1.0)
+  - ICMediator (0.1.0.6)
 
 DEPENDENCIES:
   - ICMediator (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ICMediator: 90b50d6398047a6fb83259889d1236bae52e9b35
+  ICMediator: 10144245c1d576d02b255f79e8955df23ac52939
 
 PODFILE CHECKSUM: 3d8b5ac6b1efb57612dcb024dbcc3b52d5380c0c
 
